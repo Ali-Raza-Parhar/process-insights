@@ -1,0 +1,616 @@
+.custom-uppercase {
+    text-transform: uppercase !important;
+}
+
+.custom-primary-txt-color {
+    color: #005D82;
+}
+
+.header-font-weight {
+    font-weight: 600;
+    position: relative;
+    font-size: 24px;
+}
+
+.header-font-weight::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    border: 1px solid #005D82;
+}
+
+.hero-box-gutter {
+    --bs-gutter-x: 0rem !important;
+}
+
+.hero-img-box {
+    top: 100px;
+    z-index: -1;
+}
+
+.hero-img {
+    object-fit: cover;
+    background-size: cover !important;
+    width: 100%;
+}
+
+.cooling-tower {
+    position: absolute;
+    top: 44px;
+    left: 4px;
+    height: 171px;
+    width: auto;
+    z-index: 1;
+}
+
+.cooling-tower-gif {
+    position: absolute;
+    top: 22px;
+    left: 1px;
+    height: 212px;
+    width: auto;
+    z-index: 99999;
+    border-radius: 3px;
+    display: none;
+}
+
+.cooling-tower1 {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    height: 180px;
+    width: auto;
+    z-index: 1;
+}
+
+.caustic {
+    position: absolute;
+    top: 49px;
+    left: 606px;
+    height: 194px;
+    width: auto;
+    z-index: 1;
+}
+
+.caustic-gif {
+    position: absolute;
+    top: 30px;
+    left: 603px;
+    height: 227px;
+    width: auto;
+    z-index: 99999;
+    border-radius: 3px;
+    display: none;
+}
+
+.chlorination {
+    position: absolute;
+    top: 40px;
+    left: 605px;
+    height: 209px;
+    width: auto;
+    z-index: 1;
+}
+
+
+/*Code starts here*/
+
+.oxygenanalyser {
+    position: absolute;
+    top: 73px;
+    left: 65px;
+    height: 50px;
+    width: auto;
+    z-index: 999;
+}
+
+.oxygenanalyser:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-1 {
+    position: absolute;
+    top: 89px;
+    left: 42px;
+    z-index: 9999;
+    padding: 9px 6px;
+    line-height: 0px;
+    border: 1px solid rgb(116, 195, 226);
+    background-color: rgb(223, 234, 238);
+    color: rgb(78, 78, 102);
+    border-radius: 3px;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.number-1:hover {
+    cursor: pointer;
+}
+
+.oxygenmonitor {
+    position: absolute;
+    top: 21px;
+    left: 119px;
+    height: 46px;
+    width: auto;
+    z-index: 999;
+}
+
+.oxygenmonitor:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-2 {
+    top: 33px !important;
+    left: 89px !important;
+    background-color: rgb(209, 206, 224) !important;
+    border: 1px solid slateblue !important;
+}
+
+.tigeropticssmall {
+    position: absolute;
+    top: 109px;
+    left: 368px;
+    height: 42px;
+    width: auto;
+    z-index: 999;
+}
+
+.tigeropticssmall:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-3 {
+    top: 78px !important;
+    left: 382px !important;
+    border: 1px solid coral;
+    background-color: rgb(255, 209, 192);
+}
+
+.tigeropticssmall1 {
+    position: absolute;
+    top: 26px;
+    left: 614px;
+    height: 42px;
+    width: auto;
+    z-index: 999;
+}
+
+.tigeropticssmall1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-4 {
+    top: -8px !important;
+    left: 624px !important;
+    border: 1px solid coral;
+    background-color: rgb(255, 209, 192);
+}
+
+.oxygenanalyser1 {
+    position: absolute;
+    top: 21px;
+    left: 728px;
+    height: 48px;
+    width: auto;
+    z-index: 999;
+}
+
+.oxygenanalyser1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-5 {
+    top: -5px !important;
+    left: 732px !important;
+}
+
+.oxygenanalyser2 {
+    position: absolute;
+    top: 62px;
+    left: 833px;
+    height: 50px;
+    width: auto;
+    z-index: 999;
+}
+
+.oxygenanalyser2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-6 {
+    top: 36px !important;
+    left: 837px !important;
+}
+
+.tigeropticssmall2 {
+    position: absolute;
+    top: 207px;
+    left: 645px;
+    height: 42px;
+    width: auto;
+    z-index: 999;
+}
+
+.tigeropticssmall2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-7 {
+    top: 262px !important;
+    left: 654px !important;
+    border: 1px solid coral;
+    background-color: rgb(255, 209, 192);
+}
+
+.oxygenmonitor1 {
+    position: absolute;
+    top: 280px;
+    left: 480px;
+    height: 46px;
+    width: auto;
+    z-index: 999;
+}
+
+.oxygenmonitor1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-8 {
+    top: 250px !important;
+    left: 482px !important;
+    background-color: rgb(209, 206, 224) !important;
+    border: 1px solid slateblue !important;
+}
+
+.oxygenanalyser3 {
+    position: absolute;
+    top: 316px;
+    left: 624px;
+    height: 50px;
+    width: auto;
+    z-index: 999;
+}
+
+.oxygenanalyser3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-9 {
+    top: 331px !important;
+    left: 667px !important;
+}
+
+.oxygenanalyser4 {
+    position: absolute;
+    top: 415px;
+    left: 622px;
+    height: 48px;
+    width: auto;
+    z-index: 999;
+}
+
+.oxygenanalyser4:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-10 {
+    top: 428px !important;
+    left: 595px !important;
+    padding: 9px 2px !important;
+}
+
+.oxygenmonitor2 {
+    position: absolute;
+    top: 334px;
+    left: 772px;
+    height: 46px;
+    width: auto;
+    z-index: 999;
+}
+
+.oxygenmonitor2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-11 {
+    top: 345px !important;
+    left: 738px !important;
+    background-color: rgb(209, 206, 224) !important;
+    border: 1px solid slateblue !important;
+    padding: 9px 3px !important;
+}
+
+.tigeropticssmall3 {
+    position: absolute;
+    top: 658px;
+    left: 1018px;
+    height: 42px;
+    width: auto;
+    z-index: 999;
+}
+
+.tigeropticssmall3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-12 {
+    top: 628px !important;
+    left: 1028px !important;
+    padding: 9px 2px !important;
+    border: 1px solid coral;
+    background-color: rgb(255, 209, 192);
+}
+
+@media screen and (min-width: 1440px) {
+    .caustic {
+        position: absolute;
+        top: 52px;
+        left: 644px;
+        height: 212px;
+        width: auto;
+        z-index: 1;
+    }
+    .caustic-gif {
+        position: absolute;
+        top: 38px;
+        left: 646px;
+        height: 227px;
+    }
+    .cooling-tower {
+        position: absolute;
+        top: 50px;
+        left: 16px;
+        height: 175px;
+        width: auto;
+        z-index: 1;
+    }
+    .cooling-tower-gif {
+        position: absolute;
+        top: 22px;
+        left: 1px;
+        height: 224px;
+        width: auto;
+        z-index: 99999;
+        border-radius: 3px;
+        display: none;
+    }
+    .oxygenanalyser {
+        position: absolute;
+        top: 84px;
+        left: 78px;
+        height: 50px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-1 {
+        position: absolute;
+        top: 95px;
+        left: 52px;
+        z-index: 9999;
+        padding: 9px 6px;
+        line-height: 0px;
+        border: 1px solid rgb(116, 195, 226);
+        background-color: rgb(223, 234, 238);
+        color: rgb(78, 78, 102);
+        border-radius: 3px;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+    }
+    .number-1:hover {
+        cursor: pointer;
+    }
+    .oxygenmonitor {
+        position: absolute;
+        top: 27px;
+        left: 135px;
+        height: 46px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-2 {
+        top: 38px !important;
+        left: 100px !important;
+        background-color: rgb(209, 206, 224) !important;
+        border: 1px solid slateblue !important;
+    }
+    .tigeropticssmall {
+        position: absolute;
+        top: 119px;
+        left: 395px;
+        height: 42px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-3 {
+        top: 86px !important;
+        left: 408px !important;
+        border: 1px solid coral;
+        background-color: rgb(255, 209, 192);
+    }
+    .tigeropticssmall1 {
+        position: absolute;
+        top: 33px;
+        left: 658px;
+        height: 42px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-4 {
+        top: 0px !important;
+        left: 666px !important;
+        border: 1px solid coral;
+        background-color: rgb(255, 209, 192);
+    }
+    .oxygenanalyser1 {
+        position: absolute;
+        top: 26px;
+        left: 778px;
+        height: 48px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-5 {
+        top: -5px !important;
+        left: 782px !important;
+    }
+    .oxygenanalyser2 {
+        position: absolute;
+        top: 69px;
+        left: 891px;
+        height: 50px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-6 {
+        top: 38px !important;
+        left: 896px !important;
+    }
+    .tigeropticssmall2 {
+        position: absolute;
+        top: 222px;
+        left: 691px;
+        height: 42px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-7 {
+        top: 274px !important;
+        left: 698px !important;
+        border: 1px solid coral;
+        background-color: rgb(255, 209, 192);
+    }
+    .oxygenmonitor1 {
+        position: absolute;
+        top: 299px;
+        left: 516px;
+        height: 46px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-8 {
+        top: 270px !important;
+        left: 518px !important;
+        background-color: rgb(209, 206, 224) !important;
+        border: 1px solid slateblue !important;
+    }
+    .oxygenanalyser3 {
+        position: absolute;
+        top: 341px;
+        left: 669px;
+        height: 50px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-9 {
+        top: 312px !important;
+        left: 673px !important;
+    }
+    .oxygenanalyser4 {
+        position: absolute;
+        top: 443px;
+        left: 666px;
+        height: 48px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-10 {
+        top: 455px !important;
+        left: 637px !important;
+        padding: 9px 2px !important;
+    }
+    .oxygenmonitor2 {
+        position: absolute;
+        top: 361px;
+        left: 824px;
+        height: 46px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-11 {
+        top: 373px !important;
+        left: 789px !important;
+        background-color: rgb(209, 206, 224) !important;
+        border: 1px solid slateblue !important;
+        padding: 9px 3px !important;
+    }
+    .tigeropticssmall3 {
+        position: absolute;
+        top: 706px;
+        left: 1089px;
+        height: 42px;
+        width: auto;
+        z-index: 999;
+    }
+    .number-12 {
+        top: 672px !important;
+        left: 1098px !important;
+        padding: 9px 2px !important;
+        border: 1px solid coral;
+        background-color: rgb(255, 209, 192);
+    }
+}
+
+
+/*Code ends here*/
+
+.num-1 {
+    padding: 1px 9px;
+    line-height: 0px;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.num-10 {
+    padding: 1px 5px;
+    line-height: 0px;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.plant-img {
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.plant-heading {
+    color: #005D82;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.plant-desc {
+    color: rgb(82, 82, 82);
+    font-size: 15px;
+}
